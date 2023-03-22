@@ -7,7 +7,7 @@ app.use(express.json());
 
 let client;
 
-venom.create().then((cl) => {
+venom.create({ headless: false }).then((cl) => {
   console.log('Venom-bot iniciado');
   client = cl;
   client.onMessage(async (mensagem) => {
