@@ -7,9 +7,9 @@ const app = express();
 
 app.use(express.json());
 
-let client;
+/* let client;
 
-venom.create({ headless: false }).then((cl) => {
+venom.create().then((cl) => {
   console.log('Venom-bot iniciado');
   client = cl;
   client.onMessage(async (mensagem) => {
@@ -23,14 +23,14 @@ venom.create({ headless: false }).then((cl) => {
       console.log('Mensagem recebida é de um tipo desconhecido');
     }
   });
-});
+}); */
 
 app.get('/test', (req, res) => {
       return res.json('hello world');
 });
 
 app.post('/sendmsg', (req, res) => {
-  const numero = req.body.numero;
+/*   const numero = req.body.numero;
   const mensagem = req.body.mensagem;
 
   client.sendText(numero, mensagem)
@@ -41,9 +41,10 @@ app.post('/sendmsg', (req, res) => {
     .catch((error) => {
       console.error(`Erro ao enviar mensagem para ${numero}: ${error}`);
       res.status(500).send('Erro ao enviar mensagem');
-    });
+    }); */
+    return res.json('test hello world')
 });
 
-app.listen(3000, () => {
+app.listen(3001, () => {
   console.log('Servidor iniciado na porta 3000');
 });
