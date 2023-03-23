@@ -12,7 +12,7 @@
         "dest": "/src/api.js"
       },
       {
-        "src": "/(.*)",
+        "src": "/test",
         "dest": "/src/api.js"
       }
     ]
