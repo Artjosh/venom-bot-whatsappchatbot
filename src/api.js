@@ -1,13 +1,13 @@
 const express = require('express');
 const venom = require('venom-bot');
 
-const port = process.env.PORT || 3001;
+const port = process.env.PORT;
 
 const app = express();
 
 app.use(express.json());
 
-/* let client;
+let client;
 
 venom.create().then((cl) => {
   console.log('Venom-bot iniciado');
@@ -23,14 +23,14 @@ venom.create().then((cl) => {
       console.log('Mensagem recebida é de um tipo desconhecido');
     }
   });
-}); */
+});
 
 app.get('/test', (req, res) => {
       return res.json('hello world');
 });
 
 app.post('/sendmsg', (req, res) => {
-/*   const numero = req.body.numero;
+  const numero = req.body.numero;
   const mensagem = req.body.mensagem;
 
   client.sendText(numero, mensagem)
@@ -41,8 +41,7 @@ app.post('/sendmsg', (req, res) => {
     .catch((error) => {
       console.error(`Erro ao enviar mensagem para ${numero}: ${error}`);
       res.status(500).send('Erro ao enviar mensagem');
-    }); */
-    return res.json('test hello world')
+    });
 });
 
 app.listen(3001, () => {
