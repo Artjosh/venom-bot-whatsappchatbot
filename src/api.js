@@ -1,6 +1,8 @@
 const express = require('express');
 const venom = require('venom-bot');
 
+const port = process.env.PORT || 3001;
+
 const app = express();
 
 app.use(express.json());
@@ -21,6 +23,10 @@ venom.create({ headless: false }).then((cl) => {
       console.log('Mensagem recebida é de um tipo desconhecido');
     }
   });
+});
+
+app.get('/', (req, res) => {
+      return res.json('hello world');
 });
 
 app.post('/sendmsg', (req, res) => {
