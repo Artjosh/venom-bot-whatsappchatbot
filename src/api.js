@@ -25,7 +25,7 @@ venom.create({ headless: false }).then((cl) => {
   });
 });
 
-app.get('/test', (req, res) => {
+app.get('/', (req, res) => {
       return res.json('hello world');
 });
 
