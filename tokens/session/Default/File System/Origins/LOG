@@ -1,2 +1,3 @@
-2023/04/26-16:40:51.386 3388 Creating DB C:\Users\artjosh\Desktop\otrascoisa\whats\tokens\session\Default\File System\Origins since it was missing.
-2023/04/26-16:40:51.401 3388 Reusing MANIFEST C:\Users\artjosh\Desktop\otrascoisa\whats\tokens\session\Default\File System\Origins/MANIFEST-000001
+2023/04/26-18:27:34.870 20a0 Reusing MANIFEST C:\Users\artjosh\Desktop\otrascoisa\whats\tokens\session\Default\File System\Origins/MANIFEST-000001
+2023/04/26-18:27:34.871 20a0 Recovering log #3
+2023/04/26-18:27:34.871 20a0 Reusing old log C:\Users\artjosh\Desktop\otrascoisa\whats\tokens\session\Default\File System\Origins/000003.log 

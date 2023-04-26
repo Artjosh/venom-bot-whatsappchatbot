@@ -1,2 +1,3 @@
-2023/04/26-16:40:44.961 2ba4 Creating DB C:\Users\artjosh\Desktop\otrascoisa\whats\tokens\session\Default\Sync Data\LevelDB since it was missing.
-2023/04/26-16:40:44.982 2ba4 Reusing MANIFEST C:\Users\artjosh\Desktop\otrascoisa\whats\tokens\session\Default\Sync Data\LevelDB/MANIFEST-000001
+2023/04/26-18:10:55.307 145c Reusing MANIFEST C:\Users\artjosh\Desktop\otrascoisa\whats\tokens\session\Default\Sync Data\LevelDB/MANIFEST-000001
+2023/04/26-18:10:55.308 145c Recovering log #3
+2023/04/26-18:10:55.308 145c Reusing old log C:\Users\artjosh\Desktop\otrascoisa\whats\tokens\session\Default\Sync Data\LevelDB/000003.log 

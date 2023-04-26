@@ -41,7 +41,13 @@
           estadoConversa = await getAfiliadoEstado(afiliado.id)// Se o remetente estiver na lista de afiliados, responde com uma mensagem diferente
           let pendentes = 0;
           if (estadoConversa === "inicial" || mensagem.body === "0") {
-            const eventos = await getEventos();
+            if (afiliado.pendente) {
+              const pendentesArr = afiliado.pendente.split(',');
+              pendentes = pendentesArr.length;
+            }
+            console.log(pendentes);
+/*             const eventos = await getEventos();
+            console.log(eventos)
             for (const evento of eventos) {
               const pending = JSON.parse(evento.pending || '{}');
               for (const key in pending) {
@@ -49,10 +55,11 @@
                   pendentes++;
                 }
               }
-            } 
+            }  */
             const eventoAgendadosStr = afiliado.evento || '';
             const eventosAgendados = eventoAgendadosStr.split(',');
-            const numeroDeEventos = eventosAgendados.length;
+            const numeroDeEventos = eventosAgendados && eventosAgendados.length && eventoAgendadosStr !== null && eventoAgendadosStr !== '' ? eventosAgendados.length : 0;            
+            console.log(numeroDeEventos)
               let MensagemEvento = "Eventos pendentes:";
               const eventosPendentes = afiliado.pendente ? afiliado.pendente.split(",") : [];
               const eventosFiltrados = eventosPendentes.filter(Boolean);
