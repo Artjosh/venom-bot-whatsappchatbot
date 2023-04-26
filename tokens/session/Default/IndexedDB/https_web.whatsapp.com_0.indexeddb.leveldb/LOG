@@ -1,0 +1,6 @@
+2023/04/26-16:40:48.370 3388 Creating DB C:\Users\artjosh\Desktop\otrascoisa\whats\tokens\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb since it was missing.
+2023/04/26-16:40:48.379 3388 Reusing MANIFEST C:\Users\artjosh\Desktop\otrascoisa\whats\tokens\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/04/26-16:40:48.473 2958 Level-0 table #5: started
+2023/04/26-16:40:48.484 2958 Level-0 table #5: 7376 bytes OK
+2023/04/26-16:40:48.487 2958 Delete type=0 #3
+2023/04/26-16:40:48.489 3388 Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
