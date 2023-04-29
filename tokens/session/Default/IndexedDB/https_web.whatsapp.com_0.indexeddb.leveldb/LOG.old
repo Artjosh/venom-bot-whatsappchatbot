@@ -1,14 +1,14 @@
-2023/04/26-18:32:25.968 1488 Reusing MANIFEST C:\Users\artjosh\Desktop\otrascoisa\whats\tokens\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
-2023/04/26-18:32:25.968 1488 Recovering log #41
-2023/04/26-18:32:26.017 1488 Reusing old log C:\Users\artjosh\Desktop\otrascoisa\whats\tokens\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000041.log 
-2023/04/26-18:36:31.343 c1c Level-0 table #47: started
-2023/04/26-18:36:31.402 c1c Level-0 table #47: 1208416 bytes OK
-2023/04/26-18:36:31.403 c1c Delete type=0 #41
-2023/04/26-18:36:36.052 c1c Compacting 1@1 + 2@2 files
-2023/04/26-18:36:36.147 c1c Generated table #48@1: 35651 keys, 2204304 bytes
-2023/04/26-18:36:36.216 c1c Generated table #49@1: 69550 keys, 1280329 bytes
-2023/04/26-18:36:36.216 c1c Compacted 1@1 + 2@2 files => 3484633 bytes
-2023/04/26-18:36:36.217 c1c compacted to: files[ 0 0 2 0 0 0 0 ]
-2023/04/26-18:36:36.217 c1c Delete type=2 #43
-2023/04/26-18:36:36.217 c1c Delete type=2 #44
-2023/04/26-18:36:36.217 c1c Delete type=2 #47
+2023/04/28-20:01:03.460 1bbc Reusing MANIFEST C:\Users\artjosh\Desktop\otrascoisa\whats\tokens\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/04/28-20:01:03.460 1bbc Recovering log #56
+2023/04/28-20:01:03.541 1bbc Reusing old log C:\Users\artjosh\Desktop\otrascoisa\whats\tokens\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000056.log 
+2023/04/28-20:48:47.028 29ac Level-0 table #62: started
+2023/04/28-20:48:47.076 29ac Level-0 table #62: 1221621 bytes OK
+2023/04/28-20:48:47.078 29ac Delete type=0 #56
+2023/04/28-20:55:02.004 1bbc Compacting 1@1 + 2@2 files
+2023/04/28-20:55:02.105 1bbc Generated table #63@1: 44389 keys, 2242222 bytes
+2023/04/28-20:55:02.165 1bbc Generated table #64@1: 72684 keys, 1691399 bytes
+2023/04/28-20:55:02.165 1bbc Compacted 1@1 + 2@2 files => 3933621 bytes
+2023/04/28-20:55:02.166 1bbc compacted to: files[ 0 0 2 0 0 0 0 ]
+2023/04/28-20:55:02.166 1bbc Delete type=2 #58
+2023/04/28-20:55:02.166 1bbc Delete type=2 #59
+2023/04/28-20:55:02.166 1bbc Delete type=2 #62

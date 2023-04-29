@@ -46,16 +46,6 @@
               pendentes = pendentesArr.length;
             }
             console.log(pendentes);
-/*             const eventos = await getEventos();
-            console.log(eventos)
-            for (const evento of eventos) {
-              const pending = JSON.parse(evento.pending || '{}');
-              for (const key in pending) {
-                if (pending[key].includes(afiliado.id)) {
-                  pendentes++;
-                }
-              }
-            }  */
             const eventoAgendadosStr = afiliado.evento || '';
             const eventosAgendados = eventoAgendadosStr.split(',');
             const numeroDeEventos = eventosAgendados && eventosAgendados.length && eventoAgendadosStr !== null && eventoAgendadosStr !== '' ? eventosAgendados.length : 0;            
