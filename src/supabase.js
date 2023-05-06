@@ -53,7 +53,6 @@ async function getEventosPending(id) {
   const pendingObj = JSON.parse(data.pending);
   return pendingObj;
 }
-
 async function getEventosConfirmados(id) {
   const { data, error } = await supabase
     .from('eventos')
@@ -68,7 +67,6 @@ async function getEventosConfirmados(id) {
   const confirmadosObj = JSON.parse(data.confirmados);
   return confirmadosObj;
 }
-
 async function updateEventosPending(eventoId, afiliadoId) {
   const pendingObj = await getEventosPending(eventoId);
 
@@ -94,7 +92,6 @@ async function updateEventosPending(eventoId, afiliadoId) {
     }
   }
 }
- 
 async function updateAfiliadoEstado(id, novoEstado) {
   const { error } = await supabase
     .from('afiliados')
@@ -119,7 +116,7 @@ async function getAfiliadoPendente(id){
 }
 async function updateAfiliadoPendente(id, pendenteARemover) {
   const pendentesAntigos = await getAfiliadoPendente(id);
-  const pendentesAtualizados = pendentesAntigos.replace(`${pendenteARemover},`, '').replace(`${pendenteARemover}`, '');
+  const pendentesAtualizados = pendentesAntigos.replace(`${pendenteARemover},`, '').replace(`,${pendenteARemover}`, '');
 
   const { error } = await supabase
     .from('afiliados')

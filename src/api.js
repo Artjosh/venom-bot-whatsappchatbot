@@ -18,7 +18,7 @@
   var estadoConversa;
   var eventosId = '';
 
-  venom.create({}).then((cl) => {
+  venom.create({multidevice: true}).then((cl) => {
     console.log('Venom-bot iniciado');
     client = cl;
     client.onMessage(async (mensagem) => {

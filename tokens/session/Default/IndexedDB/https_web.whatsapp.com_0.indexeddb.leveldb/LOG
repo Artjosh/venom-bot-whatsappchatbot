@@ -1,3 +1,14 @@
-2023/04/29-01:16:47.675 1f60 Reusing MANIFEST C:\Users\artjosh\Desktop\otrascoisa\whats\tokens\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
-2023/04/29-01:16:47.675 1f60 Recovering log #61
-2023/04/29-01:16:47.688 1f60 Reusing old log C:\Users\artjosh\Desktop\otrascoisa\whats\tokens\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000061.log 
+2023/04/29-18:58:39.232 2aa8 Reusing MANIFEST C:\Users\artjosh\Desktop\otrascoisa\whats\tokens\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/04/29-18:58:39.232 2aa8 Recovering log #66
+2023/04/29-18:58:39.284 2aa8 Reusing old log C:\Users\artjosh\Desktop\otrascoisa\whats\tokens\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000066.log 
+2023/04/29-18:59:52.670 31e0 Level-0 table #72: started
+2023/04/29-18:59:52.730 31e0 Level-0 table #72: 1342809 bytes OK
+2023/04/29-18:59:52.735 31e0 Delete type=0 #66
+2023/04/29-18:59:54.346 31e0 Compacting 1@1 + 2@2 files
+2023/04/29-18:59:54.474 31e0 Generated table #73@1: 46824 keys, 2260383 bytes
+2023/04/29-18:59:54.567 31e0 Generated table #74@1: 78942 keys, 1995939 bytes
+2023/04/29-18:59:54.567 31e0 Compacted 1@1 + 2@2 files => 4256322 bytes
+2023/04/29-18:59:54.568 31e0 compacted to: files[ 0 0 2 0 0 0 0 ]
+2023/04/29-18:59:54.569 31e0 Delete type=2 #68
+2023/04/29-18:59:54.569 31e0 Delete type=2 #69
+2023/04/29-18:59:54.569 31e0 Delete type=2 #72
