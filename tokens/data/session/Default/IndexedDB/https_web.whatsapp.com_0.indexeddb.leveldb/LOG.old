@@ -1,16 +1,14 @@
-2023/04/29-19:32:56.650 ab0 Creating DB C:\Users\artjosh\Desktop\otrascoisa\whats\tokens\data\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb since it was missing.
-2023/04/29-19:32:56.662 ab0 Reusing MANIFEST C:\Users\artjosh\Desktop\otrascoisa\whats\tokens\data\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
-2023/04/29-19:32:58.254 ab0 Level-0 table #5: started
-2023/04/29-19:32:58.261 ab0 Level-0 table #5: 13915 bytes OK
-2023/04/29-19:32:58.264 ab0 Delete type=0 #3
-2023/04/29-19:32:58.266 ab0 Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
-2023/04/29-19:34:12.303 3044 Level-0 table #7: started
-2023/04/29-19:34:12.536 3044 Level-0 table #7: 1052182 bytes OK
-2023/04/29-19:34:12.543 3044 Delete type=0 #4
-2023/04/29-19:34:16.924 3044 Level-0 table #9: started
-2023/04/29-19:34:17.252 3044 Level-0 table #9: 1106768 bytes OK
-2023/04/29-19:34:17.259 3044 Delete type=0 #6
-2023/04/29-19:34:17.279 3044 Compacting 1@0 + 1@1 files
-2023/04/29-19:34:17.796 3044 Generated table #10@0: 45143 keys, 1486000 bytes
-2023/04/29-19:34:17.796 3044 Compacted 1@0 + 1@1 files => 1486000 bytes
-2023/04/29-19:34:17.798 3044 compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/05/10-20:02:50.436 2880 Reusing MANIFEST C:\Users\artjosh\Desktop\otrascoisa\whats\tokens\data\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/05/10-20:02:50.436 2880 Recovering log #26
+2023/05/10-20:02:50.491 2880 Reusing old log C:\Users\artjosh\Desktop\otrascoisa\whats\tokens\data\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000026.log 
+2023/05/10-20:03:36.310 1870 Level-0 table #33: started
+2023/05/10-20:03:36.372 1870 Level-0 table #33: 1125860 bytes OK
+2023/05/10-20:03:36.375 1870 Delete type=0 #26
+2023/05/10-20:03:37.899 1870 Compacting 1@1 + 2@2 files
+2023/05/10-20:03:38.009 1870 Generated table #34@1: 39627 keys, 2209501 bytes
+2023/05/10-20:03:38.046 1870 Generated table #35@1: 39064 keys, 718199 bytes
+2023/05/10-20:03:38.046 1870 Compacted 1@1 + 2@2 files => 2927700 bytes
+2023/05/10-20:03:38.047 1870 compacted to: files[ 0 0 2 0 0 0 0 ]
+2023/05/10-20:03:38.047 1870 Delete type=2 #29
+2023/05/10-20:03:38.047 1870 Delete type=2 #30
+2023/05/10-20:03:38.047 1870 Delete type=2 #33

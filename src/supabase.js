@@ -116,7 +116,7 @@ async function getAfiliadoPendente(id){
 }
 async function updateAfiliadoPendente(id, pendenteARemover) {
   const pendentesAntigos = await getAfiliadoPendente(id);
-  const pendentesAtualizados = pendentesAntigos.replace(`${pendenteARemover},`, '').replace(`,${pendenteARemover}`, '');
+  const pendentesAtualizados = pendentesAntigos.replace(`${pendenteARemover},`, '').replace(`,${pendenteARemover}`, '').replace(`${pendenteARemover}`, '');
 
   const { error } = await supabase
     .from('afiliados')
